@@ -23,7 +23,7 @@ dns:
   fallback: [https://doh.pub/dns-query, https://dns.alidns.com/dns-query, https://101.101.101.101/dns-query, https://208.67.220.220/dns-query, https://doh.mullvad.net/dns-query]
   fallback-filter: {geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32, 223.75.236.241/32, 182.43.124.6/32, 106.74.25.198/32, 183.192.65.101/32], domain: [+.google.cn, +.jsdelivr.net, +.proton.me]}
 proxies:
-  - {name: "🇺🇸洛杉矶-1", type: ss, server: 107.174.27.252, port: 28388, cipher: chacha20-ietf-poly1305, password: "RvExkh7ZNNyQ", udp: true}
+  - {name: "🇺🇸洛杉矶-1", type: ss, server: 107.174.27.252, port: 20408, cipher: aes-256-gcm, password: "RvExkh7ZNNyQ", udp: true}
   - {name: "🇺🇸弗吉尼亚-1", type: ss, server: 170.106.132.197, port: 28388, cipher: chacha20-ietf-poly1305, password: "RvExkh7ZNNyQ", udp: true}
 proxy-groups:
   - name: 🚀 节点选择
